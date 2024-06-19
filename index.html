@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись в электронную очередь</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Запись в электронную очередь</h1>
+        <form id="queueForm">
+            <div class="form-group">
+                <label for="fullName">ФИО:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="program">Программа обучения:</label>
+                <input type="text" id="program" name="program" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="representative">ФИО представителя (если применимо):</label>
+                <input type="text" id="representative" name="representative">
+            </div>
+            
+            <div class="captcha">
+                <!-- Здесь будет капча -->
+            </div>
+            
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
